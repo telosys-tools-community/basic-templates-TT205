@@ -32,7 +32,7 @@ td.label{
 
 <table>
 <tr> <th>&nbsp;</th> <th>Class </th>  <th>Package</th> <th>DB Table</th></tr>
-<tr> <td class="label" > Bean </td> <td> ${entity.name} </td><td> $entity.package </td> <td> $entity.sqlTable </td> </tr>
+<tr> <td class="label" > Bean </td> <td> ${entity.name} </td><td> $entity.package </td> <td> $entity.databaseTable </td> </tr>
 </table>
 <br><br>
 <table>

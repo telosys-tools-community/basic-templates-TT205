@@ -35,8 +35,8 @@ td.label{
 <body>
 <h1>Entities documentation </h1>
 <ul>
-#foreach ( $entityClass in $selectedEntities )
-<li><a href="./${entityClass.name}.html">${entityClass.name}</a> $entityClass.name ( package $entityClass.package) : Table = $entityClass.sqlTable </li>
+#foreach ( $entity in $selectedEntities )
+<li><a href="./${entity.name}.html">${entity.name}</a> $entity.name ( package $entity.package) : Table = $entity.databaseTable </li>
 #end 
 </ul>
 </body>

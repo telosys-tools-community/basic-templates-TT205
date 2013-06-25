@@ -70,7 +70,7 @@ ENTITY VARIABLES :
 \$entity.name            = $entity.name
 \$entity.package         = $entity.package
 \$entity.superClass      = $entity.superClass
-\$entity.sqlTable        = $entity.sqlTable
+\$entity.databaseTable   = $entity.databaseTable
 \$entity.databaseCatalog = $entity.databaseCatalog
 \$entity.databaseSchema  = $entity.databaseSchema
 

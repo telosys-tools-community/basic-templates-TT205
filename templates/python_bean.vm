@@ -1,4 +1,4 @@
-${SHARP} Python class for table ${entity.sqlTable} 
+${SHARP} Python class for table ${entity.databaseTable} 
 ${SHARP} Created on $today.date ( Time $today.time )
 
 
